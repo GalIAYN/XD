@@ -347,10 +347,14 @@ export default function XDTICWebsite() {
             <Card className="bg-white text-gray-900 max-w-md mx-auto">
               <CardHeader>
                 <div className="w-32 h-32 mx-auto bg-gray-100 rounded-lg flex items-center justify-center mb-4">
-                  <QrCode className="h-16 w-16 text-gray-400" />
+                  <img
+                    src="/tic-qrcode.jpg"
+                    alt="2025腾讯TIC招新群二维码"
+                    className="w-full h-full object-contain"
+                  />
                 </div>
-                <CardTitle>扫码加入新生群</CardTitle>
-                <CardDescription>和学长学姐谈天说地</CardDescription>
+                <CardTitle>扫码加入新生Q群</CardTitle>
+                <CardDescription>群号：215255328</CardDescription>
               </CardHeader>
               <CardContent>
                 <Button className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700">
